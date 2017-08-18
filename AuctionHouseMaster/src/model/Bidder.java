@@ -46,7 +46,7 @@ public class Bidder implements Observer {
 
         System.out.println(name + "'s bid is: $" + personalBid);
     }
-
-
-
 }
+
+
+
