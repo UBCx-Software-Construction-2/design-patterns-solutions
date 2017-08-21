@@ -10,8 +10,8 @@ public class Todo extends Doable {
     private List<Doable> subs;
 
     public Todo(String description) {
+        super();
         this.description = description;
-        complete = false;
         subs = new LinkedList<>();
     }
 

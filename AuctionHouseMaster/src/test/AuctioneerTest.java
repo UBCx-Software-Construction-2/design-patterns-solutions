@@ -18,9 +18,9 @@ public class AuctioneerTest {
     @Before
     public void setUp() {
        auctioneer = new Auctioneer("Paul");
-       b1 = new Bidder("Anthony Estey", 40.00);
-       b2 = new Bidder("Alan Turing", 30.00);
-       b3 = new Bidder("John Smith", 50.00);
+       b1 = new Bidder("Anthony Estey", 40.00, auctioneer);
+       b2 = new Bidder("Alan Turing", 30.00, auctioneer);
+       b3 = new Bidder("John Smith", 50.00, auctioneer);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class AuctioneerTest {
         auctioneer.acceptBid(100.00);
         checkCurrentBid(100.00, b1);
         checkCurrentBid(100.00, b2);
-        checkCurrentBid(0, b3);
+        checkCurrentBid(100.00, b3);
     }
 
 

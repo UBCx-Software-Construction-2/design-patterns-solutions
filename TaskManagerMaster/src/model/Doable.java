@@ -4,6 +4,10 @@ public abstract class Doable {
 
     protected boolean complete;
 
+    public Doable() {
+        complete = false;
+    }
+
     // getters
     public boolean getStatus() { return complete; }
 

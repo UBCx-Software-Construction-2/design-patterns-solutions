@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AuctionHouseMaster/AuctionHouseMaster.iml" filepath="$PROJECT_DIR$/AuctionHouseMaster/AuctionHouseMaster.iml" />
       <module fileurl="file://$PROJECT_DIR$/TaskManagerMaster/TaskManagerMaster.iml" filepath="$PROJECT_DIR$/TaskManagerMaster/TaskManagerMaster.iml" />
-      <module fileurl="file://$PROJECT_DIR$/iPod/iPod.iml" filepath="$PROJECT_DIR$/iPod/iPod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iPodMaster/iPodMaster.iml" filepath="$PROJECT_DIR$/iPodMaster/iPodMaster.iml" />
     </modules>
   </component>
 </project>

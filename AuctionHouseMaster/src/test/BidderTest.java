@@ -1,5 +1,6 @@
 package test;
 
+import model.Auctioneer;
 import model.Bidder;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,11 +11,13 @@ public class BidderTest {
 
     private static double DELTA = 0.05;
 
+    private Auctioneer auctioneer;
     private Bidder bidder;
 
     @Before
     public void setUp() {
-        bidder = new Bidder("Paul Carter", 300.00);
+        auctioneer = new Auctioneer("John Smith");
+        bidder = new Bidder("Paul Carter", 300.00, auctioneer);
     }
 
     @Test

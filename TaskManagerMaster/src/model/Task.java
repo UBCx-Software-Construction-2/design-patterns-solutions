@@ -7,10 +7,10 @@ public class Task extends Doable {
     private String location;
 
     public Task(String description, String date, String location) {
+        super();
         this.description = description;
         this.date = date;
         this.location = location;
-        complete = false;
     }
 
     // getters

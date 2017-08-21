@@ -9,11 +9,12 @@ public class Bidder implements Observer {
     private double currentBid;
     private double maxBid;
 
-    public Bidder(String name, double maxBid) {
+    public Bidder(String name, double maxBid, Auctioneer auctioneer) {
         this.name = name;
         personalBid = 0.0;
         currentBid = 0.0;
         this.maxBid = maxBid;
+        auctioneer.addObserver(this);
     }
 
     // getters
