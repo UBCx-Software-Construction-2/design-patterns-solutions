@@ -10,7 +10,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-public class qiPod implements Iterable<AbstractMedia> {
+public class iPod implements Iterable<AbstractMedia> {
 
     private String name;
     private Set<AbstractMedia> movies = new HashSet<>();
